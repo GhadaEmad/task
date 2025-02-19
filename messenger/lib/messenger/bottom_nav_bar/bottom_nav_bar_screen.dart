@@ -32,7 +32,6 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
   }
   @override
   Widget build(BuildContext context) {
-    debugPrint("rebuild build");
     return Scaffold(
       bottomNavigationBar:
       BottomNavigationBar(
